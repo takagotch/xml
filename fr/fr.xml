@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">XMLLayoutEx</string>
+</resources>
+
+<resources>
+  <string name="app_name">XMLLayoutEx</string>
+  <string name="click">Click</string>
+</resources>
+
+
+
+
+setContentView(R.layout.sample);
+
+button = (Button)this.findViewById(R.id.button);
+button.setOnClickListener(this);
+imageButton = (ImageButton)this.findViewById(R.id.imageButton);
+imageButton.setOnClickListener(this);
+
